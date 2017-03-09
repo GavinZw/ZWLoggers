@@ -23,7 +23,6 @@ spec.requires_arc          = true
 spec.source_files = 'ZWLoggers/ZWLoggers/*.{h,m}'
 spec.public_header_files = 'ZWLoggers/ZWLoggers/*.{h}'
 
-spec.frameworks  'Foundation'
 spec.dependency  'CocoaLumberjack/Default'
 
 end
