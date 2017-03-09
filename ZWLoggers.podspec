@@ -24,6 +24,6 @@ spec.source_files = 'ZWLoggers/ZWLoggers/*.{h,m}'
 spec.public_header_files = 'ZWLoggers/ZWLoggers/*.{h}'
 
 spec.frameworks = 'Foundation'
-spec.dependency = 'CocoaLumberjack'
+spec.dependency = 'CocoaLumberjack/Default', '~> 3.1.0'
 
 end
