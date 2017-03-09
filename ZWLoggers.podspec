@@ -9,19 +9,19 @@
 Pod::Spec.new do |spec|
 
 spec.name         = 'ZWLoggers'
-spec.summary      = 'A short description of ZWLoggers.'
+spec.summary      = 'A log component.'
 spec.version      = '0.0.1'
 spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
 spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
-spec.homepage     = 'https://github.com/ZWLoggers/ZWLoggers'
+spec.homepage     = 'https://github.com/GavinZw/ZWLoggers'
 
 spec.ios.deployment_target = '8.0'
 
 spec.source       = { :git => 'https://github.com/GavinZw/ZWLoggers.git', :tag => spec.version }
 
 spec.requires_arc          = true
-spec.source_files = 'ZWLoggers/ZWLoggers/*.{h,m}'
-spec.public_header_files = 'ZWLoggers/ZWLoggers/*.{h}'
+spec.source_files = 'ZWLoggers/*.{h,m}'
+spec.public_header_files = 'ZWLoggers/*.{h}'
 
 spec.dependency  'CocoaLumberjack/Default'
 
