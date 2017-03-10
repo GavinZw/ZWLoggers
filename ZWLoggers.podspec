@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 spec.name         = 'ZWLoggers'
 spec.summary      = 'A log component.'
-spec.version      = '0.0.1'
+spec.version      = '1.0.0'
 spec.license      =  { :type => 'MIT', :file => 'LICENSE' }
 spec.authors      = { 'gavin' => 'lovegavin@outlook.com' }
 spec.homepage     = 'https://github.com/GavinZw/ZWLoggers'
