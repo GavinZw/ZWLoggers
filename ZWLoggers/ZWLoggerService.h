@@ -7,7 +7,6 @@
 //
 
 #import "ZWLoggerServiceDefines.h"
-#import <CocoaLumberjack/CocoaLumberjack.h>
 
 //! Project version number for ZWLoggers.
 FOUNDATION_EXPORT double ZWLoggersVersionNumber;

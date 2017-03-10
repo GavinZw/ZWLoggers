@@ -6,8 +6,7 @@
 //  Copyright © 2017年 Gavin. All rights reserved.
 //
 
-#import "ZWLoggerServiceDefines.h">
-#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "ZWLoggerServiceDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

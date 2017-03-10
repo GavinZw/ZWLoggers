@@ -7,7 +7,6 @@
 //
 
 #import "ZWLoggerServiceDefines.h"
-#import <CocoaLumberjack/CocoaLumberjack.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
