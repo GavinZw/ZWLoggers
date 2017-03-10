@@ -7,16 +7,13 @@
 //
 
 #import "ZWLoggerServiceDefines.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 //! Project version number for ZWLoggers.
 FOUNDATION_EXPORT double ZWLoggersVersionNumber;
 
 //! Project version string for ZWLoggers.
 FOUNDATION_EXPORT const unsigned char ZWLoggersVersionString[];
-
-#ifndef ZW_LOG_MODULE_NAME
-#define ZW_LOG_MODULE_NAME ddLogModuleName
-#endif
 
 /**
  选择下面的方式进行输出

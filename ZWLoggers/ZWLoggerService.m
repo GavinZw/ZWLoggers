@@ -129,7 +129,7 @@
 #pragma makr -
 #pragma makr -
 
-+ (DDFileLogger *)currentLogPath{
++ (DDFileLogger *)currentFileLogger{
   NSArray* loggers = [DDLog allLoggers];
   
   for(id fileLogger in loggers)
