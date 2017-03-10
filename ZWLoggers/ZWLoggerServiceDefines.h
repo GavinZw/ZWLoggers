@@ -10,13 +10,8 @@
 #define ZWLoggerServiceDefines_h
 
 #import <Foundation/Foundation.h>
-#import "ZWLogMacros.h"
-
-#if __has_include(<CocoaLumberjack/CocoaLumberjack.h>)
 #import <CocoaLumberjack/CocoaLumberjack.h>
-#else
-#import "CocoaLumberjack.h"
-#endif
+#import "ZWLogMacros.h"
 
 #ifdef NS_DESIGNATED_INITIALIZER
 #   define __ZW_DESIGNATED_INITIALIZER    NS_DESIGNATED_INITIALIZER

@@ -4,7 +4,7 @@ inhibit_all_warnings!
 #use_frameworks!
 
 
-#project './ZWLoggers.xcodeprog'
+project './ZWLoggers.xcodeprog'
 target :ZWLoggers do
 
 pod 'CocoaLumberjack'
